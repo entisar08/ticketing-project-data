@@ -19,6 +19,7 @@ import java.time.LocalDate;
 public class DataGenerator implements CommandLineRunner {
 
     private final RoleService roleService;
+
     private final UserService userService;
     private final ProjectService projectService;
     private final TaskService taskService;
